@@ -225,7 +225,7 @@ section{
     }
     
     header{
-        padding-left: 94%;
+        padding-left: 90%;
     }
 
     .logo{
@@ -237,7 +237,7 @@ section{
         top: 100%;
         right: -100%;
         width: 270px;
-        height: 40vh;
+        height: 270px;
         background: linear-gradient(155deg,#00ccff 0% ,#10a3ad 78% );
         border-radius: 15px ;
         display: flex;
