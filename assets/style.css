@@ -223,14 +223,23 @@ section{
     #menu-icon{
         display: block;
     }
+    
+    header{
+        padding-left: 94%;
+    }
+
+    .logo{
+        display: none;
+    }
 
     .navlist{
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 300px;
+        width: 270px;
         height: 40vh;
-        background:#10a3ad;
+        background: linear-gradient(155deg,#00ccff 0% ,#10a3ad 78% );
+        border-radius: 15px ;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -242,8 +251,14 @@ section{
         margin-left: 0;
         display: block;
         margin: 7px 0;
-        
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        border-bottom: 2px solid transparent;
+        transition:  all .55s ease;
     }
+
+    
 
     .navlist.open{
         right: 0;
